@@ -16,6 +16,15 @@ This reference is, more or less, the address in memory of the object allocated b
 This reference is then stored in the variable.
 Thus, in Java, all class objects must be dynamically allocated.
 
+"This" keyword *******
+"this" keyword is replace with class variable."this" keyword pointing to instance of class.
+"this" keyword also use for calling the constructor from other constructor
+e.g.
+Student(){
+    this (13, "default person", 100.0f);
+    // it means that call the Student contructor that having parameter as (13, "default person", 100.0f)
+}
+
 Box mybox; // declare reference to object
      mybox = new Box(); // allocate a Box object
 The first line declares mybox as a reference to an object of type Box. At this point, mybox does not yet refer to an
